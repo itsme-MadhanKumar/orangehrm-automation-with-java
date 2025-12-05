@@ -7,9 +7,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import utilities.reports.ExtendReports;
-
 import java.io.IOException;
-
 public class Listenersclass extends Screenshoot implements ITestListener
 {
 
