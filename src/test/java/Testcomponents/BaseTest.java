@@ -10,7 +10,7 @@ import java.time.Duration;
 import java.util.Properties;
 public class BaseTest
 {
-    WebDriver driver;
+    public WebDriver driver;
     ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
     public LoginPage loginPage;
 
