@@ -1,4 +1,6 @@
 package org.example.employee.claim;
 
-public class Claim {
+public class Claim
+{
+
 }

@@ -17,9 +17,9 @@ public class Reuseclass extends BaseTest
         landingPage = loginPage.setClicklogin();
     }
 
-//    @AfterMethod
-//    public void tearDown()
-//    {
-//        driver.quit();
-//    }
+    @AfterMethod
+    public void tearDown()
+    {
+        driver.quit();
+    }
 }
