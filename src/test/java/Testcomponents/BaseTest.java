@@ -40,9 +40,11 @@ public class BaseTest
         return driver;
     }
 
+
     @BeforeMethod(alwaysRun = true)
     public LoginPage launchApplication() throws IOException
     {
+        System.out.println();
         driver = initialize();
         tlDriver.set(driver);
         loginPage = new LoginPage(driver);

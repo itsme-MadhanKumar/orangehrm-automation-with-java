@@ -29,7 +29,7 @@
           <version>3.5.4</version>
           <configuration>
             <suiteXmlFiles>
-              <suiteXmlFile>test.xml</suiteXmlFile>
+              <suiteXmlFile>smoketest.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>
